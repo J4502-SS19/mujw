@@ -1,13 +1,6 @@
 #groupphotos {
   list-style-type: none;
 }
-
-p {
-  color: purple;
-}
-
-#nav {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
+h1 {
+  background-color: #DCDCDC
 }
