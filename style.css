@@ -2,7 +2,6 @@
   list-style-type: none;
 }
 
-<<<<<<< HEAD
 p {
   color: purple;
 }
@@ -10,13 +9,5 @@ p {
 #nav {
   display: flex;
   justify-content: space-around;
-  flex-flow: row wrap; 
+  flex-flow: row wrap;
 }
-=======
-h1{
-  font-family:'Roboto', sans-serif;
-  font-weight: bold;
-  color: black;
-  font-size: 2em;
-  background-color: white;
->>>>>>> 3633791e65be2451786c1a04c0ad8173e363ea59
