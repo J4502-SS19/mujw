@@ -2,10 +2,29 @@
   list-style-type: none;
 }
 
+p {
+  color: purple;
+}
+
+#nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  background-color: #DCDCDC;
+  border: 3px solid black;
+  padding: 10px;
+
+}
+
+
 h1{
   font-family:'Roboto', sans-serif;
   font-weight: bold;
   color: black;
   font-size: 2em;
   background-color: white;
+<<<<<<< HEAD
   ]
+=======
+>>>>>>> f2e1f4d9a70864ea7f167f2e4db202567016e461
