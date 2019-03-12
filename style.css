@@ -2,6 +2,9 @@
   list-style-type: none;
 }
 
+header{background-color: yellow;
+}
+
 #nav {
   font-family: 'Muli', sans-serif;
   list-style-type: none;
@@ -17,7 +20,8 @@
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  padding: auto;}
+  padding: auto;
+  }
 
 p{
   font-family: 'Muli', sans-serif;
