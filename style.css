@@ -2,14 +2,6 @@
   list-style-type: none;
 }
 
-p {
-  color: black;
-  font-family:'Muli', sans-serif;;
-  font-size: 1em;
-}
-
-}
-
 #nav {
   list-style-type: none;
   display: flex;
@@ -18,9 +10,7 @@ p {
   background-color: #DCDCDC;
   border: 3px solid black;
   padding: 10px;
-
-}
-
+  }
 
 h1{
   font-family:'Roboto', sans-serif;
@@ -28,4 +18,3 @@ h1{
   color: black;
   font-size: 2em;
   background-color: white;
-}
