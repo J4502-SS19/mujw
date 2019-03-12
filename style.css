@@ -3,11 +3,7 @@
 }
 
 p {
-  color: black;
-  font-family:'Muli', sans-serif;;
-  font-size: 1em;
-}
-
+  color: purple;
 }
 
 #nav {
@@ -18,7 +14,7 @@ p {
   background-color: #DCDCDC;
   border: 3px solid black;
   padding: 10px;
-
+  
 }
 
 
@@ -28,4 +24,3 @@ h1{
   color: black;
   font-size: 2em;
   background-color: white;
-}
