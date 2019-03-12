@@ -2,13 +2,6 @@
   list-style-type: none;
 }
 
-<<<<<<< HEAD
-p {
-  color: purple;
-}
-
-=======
->>>>>>> ca606f8c0a6f60b28fa6e5f33078416994b50244
 #nav {
   list-style-type: none;
   display: flex;
@@ -17,13 +10,7 @@ p {
   background-color: #DCDCDC;
   border: 3px solid black;
   padding: 10px;
-<<<<<<< HEAD
-  
-}
-
-=======
   }
->>>>>>> ca606f8c0a6f60b28fa6e5f33078416994b50244
 
 h1{
   font-family:'Roboto', sans-serif;
