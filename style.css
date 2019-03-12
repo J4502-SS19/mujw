@@ -26,15 +26,3 @@ h1{
   background-color: white;
   text-align: center;
 }
-
-footer{display: block;
-      background-color: black;
-      padding: 5px 5px 20px 5px;
-    }
-footer p{margin: .4px;
-        color: white;}
-
-footer h1{padding: 2px 5px 8px 5px;
-          color: white;
-          background-color: black;
-        }
