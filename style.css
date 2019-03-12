@@ -18,3 +18,14 @@ h1{
   color: black;
   font-size: 2em;
   background-color: white;}
+
+footer{display: block;
+      background-color: black;
+      padding: 20px;
+    }
+footer p{margin: .4px;
+        color: white;}
+
+footer h1{padding: 4px;
+          color: white;
+          background-color: black;}
