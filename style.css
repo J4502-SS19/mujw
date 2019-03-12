@@ -1,3 +1,7 @@
 #groupphotos {
   list-style-type: none;
 }
+
+p {
+  color: blue; 
+}
