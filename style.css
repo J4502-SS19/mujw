@@ -2,6 +2,7 @@
   list-style-type: none;
 }
 
+<<<<<<< HEAD
 p {
   color: purple;
 }
@@ -16,9 +17,11 @@ p {
   padding: 10px;
 }
 
+=======
+>>>>>>> 417a91c0d3870e4e064407e7102bfd63e134679e
 h1{
   font-family:'Roboto', sans-serif;
   font-weight: bold;
   color: black;
   font-size: 2em;
-  background-color: white;
+  background-color: white;}
