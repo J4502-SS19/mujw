@@ -10,22 +10,22 @@
   background-color: #DCDCDC;
   border: 3px solid black;
   padding: 10px;
+  }
+
+p{
+  font-family: 'Muli', sans-serif;
+  color:  #000000;
+  font-size: 1em;
 }
 
-#nav a:hover, #nav a:active {
-  background-color: white;
-}
-
-#nav a:link, #nav a:visited {
-  display: block;
-  font-weight: bold;
-}
-header{
+h1{
   font-family:'Roboto', sans-serif;
   font-weight: bold;
   color: black;
   font-size: 2em;
-  background-color: white;}
+  background-color: white;
+  text-align: center;
+}
 
 footer{display: block;
       background-color: black;
@@ -36,5 +36,5 @@ footer p{margin: .4px;
 
 footer h1{padding: 2px 5px 8px 5px;
           color: white;
-          background-color: black;}
-}
+          background-color: black;
+        }
