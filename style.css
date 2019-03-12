@@ -10,7 +10,6 @@
   background-color: #DCDCDC;
   border: 3px solid black;
   padding: 10px;
-<<<<<<< HEAD
 }
 
 #nav a:hover, #nav a:active {
@@ -21,25 +20,10 @@
   display: block;
   font-weight: bold;
 }
-
-
-h1 {
-=======
-  }
-
-p{
-  font-family: 'Muli', sans-serif;
-  color:  #000000;
-  font-size: 1em;
-}
-
-h1{
->>>>>>> 6c68c72a833a6c695725676c106efed1099c12d3
   font-family:'Roboto', sans-serif;
   font-weight: bold;
   color: black;
   font-size: 2em;
-<<<<<<< HEAD
   background-color: white;}
 
 footer{display: block;
@@ -52,11 +36,4 @@ footer p{margin: .4px;
 footer h1{padding: 4px;
           color: white;
           background-color: black;}
-=======
-  background-color: white;
-<<<<<<< HEAD
-=======
-  text-align: center;
->>>>>>> 6c68c72a833a6c695725676c106efed1099c12d3
 }
->>>>>>> b35fa91ddc5b36a0f05e11982e0e49ea550c0063
