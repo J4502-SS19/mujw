@@ -13,7 +13,6 @@ header{background-color: yellow;
   flex-flow: row wrap;
   background-color: #DCDCDC;
   border: 3px solid black;
-  padding: 10px;
   }
 
 #nav a:hover, #nav a:active {background-color: black;
@@ -21,6 +20,14 @@ header{background-color: yellow;
   text-align: center;
   text-decoration: none;
   padding: auto;
+  }
+
+  li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
 
 p{
