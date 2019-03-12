@@ -11,7 +11,8 @@
   border: 3px solid black;
   padding: 10px;
   }
-
+  
+#nav a:hover, #nav a:active {background-color: #A9DDD6;}
 p{
   font-family: 'Muli', sans-serif;
   color:  #000000;
