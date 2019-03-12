@@ -14,17 +14,22 @@ p {
   background-color: #DCDCDC;
   border: 3px solid black;
   padding: 10px;
+}
 
+#nav a:hover, #nav a:active {
+  background-color: white;
+}
+
+#nav a:link, #nav a:visited {
+  display: block;
+  font-weight: bold;
 }
 
 
-h1{
+h1 {
   font-family:'Roboto', sans-serif;
   font-weight: bold;
   color: black;
   font-size: 2em;
   background-color: white;
-<<<<<<< HEAD
-  ]
-=======
->>>>>>> f2e1f4d9a70864ea7f167f2e4db202567016e461
+}
