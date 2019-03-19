@@ -24,7 +24,8 @@
   text-decoration: none;
   padding: auto;
   }
-
+img{align-items: center;
+}
 
 li a{
     display: block;
