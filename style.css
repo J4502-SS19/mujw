@@ -9,6 +9,10 @@
   padding: auto;
 }
 
+#groupphotos img {
+  display:block;
+}
+
 #header{display: block;
   background-color: #F1B82D;
   margin: auto;
