@@ -5,6 +5,7 @@
 #groupphotos a:hover, #groupphotos a:active {
   background-color: #F1B82D;
   text-align: center;
+  align-content: center;
   text-decoration: none;
   padding: auto;
 }
@@ -80,6 +81,7 @@ footer h1{padding: 5px 5px 8px 5px;
           background-color: black;
           text-align: left;
         }
+
 @media (max-width: 800px){
         #nav{display: flex;
         flex-direction: column;
