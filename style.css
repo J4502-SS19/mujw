@@ -2,6 +2,13 @@
   list-style-type: none;
 }
 
+#groupphotos a:hover, #groupphotos a:active {
+  background-color: #F1B82D;
+  text-align: center;
+  text-decoration: none;
+  padding: auto;
+}
+
 #header{display: block;
   background-color: #F1B82D;
   margin: auto;
