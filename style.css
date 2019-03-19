@@ -91,8 +91,7 @@ footer h1{padding: 5px 5px 8px 5px;
 
 #sponsors {display: flex;
           align-items: center;
-          justify-content: flex-start;
-          flex-direction: column;
+          flex-direction: row;
           }
 
 .caption {display: block;
