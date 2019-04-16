@@ -36,6 +36,11 @@
   margin-top: 0;
   }
 
+.p1 {width: 80%;
+    display: block;
+    margin: auto;
+}
+
 #nav a:hover, #nav a:active {background-color: black;
   color: #ffffff;
   text-align: center;
