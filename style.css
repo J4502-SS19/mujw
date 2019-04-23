@@ -29,8 +29,9 @@
   font-family: 'Muli', sans-serif;
   list-style-type: none;
   display: flex;
+  text-align: center;
   justify-content: space-around;
-  flex-flow: row wrap;
+  flex-direction: row;
   background-color: #DCDCDC;
   border: 3px solid black;
   margin-top: 0;
@@ -43,7 +44,7 @@
 
 #nav a:hover, #nav a:active {background-color: black;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   padding: auto;
   }
@@ -85,22 +86,38 @@ footer h1{padding: 5px 5px 8px 5px;
           text-align: left;
         }
 
-.menu-trigger {display: none;}
+@media (max-width: 600px) {
+  #nav { display: flex;
+        flex-direction: column;}
+}
 
-#sponsors {display: grid;
-grid-template-columns: 25% 25% 25% 25%;
-grid-template-rows: 33% 33% 33%;
-background-color: #DCDCDC;
-          }
+.menutrigger {
+  order: 1;
+}
 
-#sponsors img {margin: 15px auto;}
+h1 header {order: 2;}
 
-@media (max-width: 800px){
-        #nav{display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;}
-            }*/
+nav li {display: none;}
+
+@media screen and (min-width: 600px){
+
+    nav li {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    nav {
+        order: 2;
+    }
+
+}
 
         * {box-sizing:border-box}
 
