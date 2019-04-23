@@ -14,7 +14,7 @@
   display:block;
 }
 
-#header{display: flex;
+#header{display: block;
   background-color: #F1B82D;
   margin: auto;
 }
@@ -94,7 +94,7 @@ footer h1{padding: 5px 5px 8px 5px;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;}
-        .menu-trigger {display: block;}   }
+            }*/
 
         * {box-sizing:border-box}
 
@@ -143,13 +143,11 @@ footer h1{padding: 5px 5px 8px 5px;
           from {opacity: .4}
           to {opacity: 1}
         }
-        
+
 #sponsors {display: grid;
 grid-template-columns: 25% 25% 25% 25%;
 grid-template-rows: 25% 25% 25% 25%;
           }
-
-#sponsors img {margin: 10px 20px;}
 
 .caption {display: block;
           background-color: black;
@@ -178,7 +176,6 @@ grid-template-rows: 25% 25% 25% 25%;
     "b . a"
   max-width: 80%;
   }
-
 
   @media screen and (min-width: 450px) {
 
