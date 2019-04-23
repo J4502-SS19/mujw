@@ -84,6 +84,14 @@ h1{
   text-align: center;
 }
 
+h2 {
+  font-family:'Roboto', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 1em;
+  text-align: center;
+}
+
 footer{display: block;
       background-color: black;
       padding: 5px 5px 20px 5px;
@@ -241,7 +249,7 @@ nav li {display: none;}
     grid-gap: 20px;
     gap: 20px;
     grid-template-areas:
-    "e f f"
+    "e e f"
     "c d b"
   }
   .cards p {
