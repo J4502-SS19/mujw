@@ -112,3 +112,58 @@ footer h1{padding: 5px 5px 8px 5px;
           margin: auto;
           text-align: center;}
 }
+
+.cards {
+  margin: 0 -10px;
+  padding: 25px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-template-areas:
+    "e e e"
+    "c . d"
+    "b . a"
+  max-width: 80%;
+  }
+
+  @media screen and (min-width: 450px) {
+
+    nav ul {
+      flex-flow: row;
+      justify-content: center;
+    }
+}
+
+@media screen and (min-width: 600px) {
+  #container2 {
+    width: 80%;
+  }
+}
+
+.cards li {
+  background-color: #DCDCDC;
+  list-style-type: none;
+  border-radius: 5px;
+}
+
+.card2014 {
+  grid-area: a;
+}
+
+.card2015 {
+  grid-area: b;
+}
+
+.card2016 {
+  grid-area: c;
+}
+
+.card2017 {
+  grid-area: d;
+}
+
+.card2018 {
+  grid-area: e;
+}
