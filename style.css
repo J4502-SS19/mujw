@@ -102,9 +102,6 @@ background-color: #DCDCDC;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;}
-<<<<<<< HEAD
-        .menu-trigger {display: block;}}
-=======
             }*/
 
         * {box-sizing:border-box}
@@ -159,7 +156,6 @@ background-color: #DCDCDC;
 grid-template-columns: 25% 25% 25% 25%;
 grid-template-rows: 25% 25% 25% 25%;
           }
->>>>>>> f05f11813b49c7c39f50abac8e29af7ec3cc490b
 
 .caption {display: block;
           background-color: black;
