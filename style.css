@@ -5,6 +5,7 @@
 #groupphotos a:hover, #groupphotos a:active {
   background-color: #F1B82D;
   text-align: center;
+  align-content: center;
   text-decoration: none;
   padding: auto;
 }
@@ -35,9 +36,14 @@
   margin-top: 0;
   }
 
+.p1 {width: 80%;
+    display: block;
+    margin: auto;
+}
+
 #nav a:hover, #nav a:active {background-color: black;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   padding: auto;
   }
@@ -48,7 +54,7 @@ li a{
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
   }
 
@@ -80,17 +86,29 @@ footer h1{padding: 5px 5px 8px 5px;
           background-color: black;
           text-align: left;
         }
+<<<<<<< HEAD
 /*@media (max-width: 800px){
+=======
+
+.menu-trigger {display: none;}
+
+@media (max-width: 800px){
+>>>>>>> 4702b3e965762134d87f88c5e98a560eb4a5e82d
         #nav{display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;}
+<<<<<<< HEAD
             }*/
+=======
+        .menu-trigger {display: block;}   }
+
+
+>>>>>>> 4702b3e965762134d87f88c5e98a560eb4a5e82d
 
 #sponsors {display: flex;
           align-items: center;
-          justify-content: flex-start;
-          flex-direction: column;
+          flex-flow: row wrap;
           }
 
 .caption {display: block;
@@ -104,4 +122,59 @@ footer h1{padding: 5px 5px 8px 5px;
           font-size: 0.8em;
           margin: auto;
           text-align: center;}
+}
+
+.cards {
+  margin: 0 -10px;
+  padding: 25px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-template-areas:
+    "e e e"
+    "c . d"
+    "b . a"
+  max-width: 80%;
+  }
+
+  @media screen and (min-width: 450px) {
+
+    nav ul {
+      flex-flow: row;
+      justify-content: center;
+    }
+}
+
+@media screen and (min-width: 600px) {
+  #container2 {
+    width: 80%;
+  }
+}
+
+.cards li {
+  background-color: #DCDCDC;
+  list-style-type: none;
+  border-radius: 5px;
+}
+
+.card2014 {
+  grid-area: a;
+}
+
+.card2015 {
+  grid-area: b;
+}
+
+.card2016 {
+  grid-area: c;
+}
+
+.card2017 {
+  grid-area: d;
+}
+
+.card2018 {
+  grid-area: e;
 }

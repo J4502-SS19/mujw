@@ -7,40 +7,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="menu.js" type="text/javascript"></script>
 </head>
 
 <body>
 	<div id="header">
-		<a href="index.html"><IMG SRC="images/logo.png" ALT="MUJW Logo" HEIGHT= 100 /></a>
+		<a href="index.html"><IMG SRC="images/Logo.png" ALT="MUJW Logo" HEIGHT= 100 /></a>
 	</div>
 
 	  <div id="container">
-	    <ul id="nav">
-					<li class="index"><a href="index.html">Home</a></li>
-	        <li class="about"><a href="about.html">About</a></li>
-	        <li class="past"><a href="past.html">Past Workshops</a></li>
-	        <li class="donate"><a href="donate.html">Donate</a></li>
-					<li class="apply"><a href="apply.html">Apply Now</a></li>
-	    </ul></div>
+			<nav>
+			<ul id="nav">
+				<a class="menu-trigger" href="#">&#9776;</a>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="past.html">Past Workshops</a></li>
+					<li><a href="donate.html">Donate</a></li>
+					<li><a href="apply.html">Apply Now</a></li>
+		 </nav></ul></div>
 	    <h1>Missouri Urban Journalism Workshop</h1>
 		<div id="groupphotos">
-			<aside><a href="https://mujw2018.wordpress.com/">MUJW Class of 2018<img width="500px" src="images/2018 MUJW.jpg" alt="MUJW Class of 2018"></img></a>
-			</aside>
+			<ul class="cards">
+				<li class="card2018">
+				<aside><a href="https://mujw2018.wordpress.com/">MUJW Class of 2018<img width="500px" src="images/2018 MUJW.jpg" alt="MUJW Class of 2018"></img></a>
+			</aside></li>
+			<li class="card2017">
 			<aside><a href="https://mujw2017.wordpress.com/">MUJW Class of 2017</a></aside>
-			<aside><a href="https://mujw2016.wordpress.com/">MUJW Class of 2016<img width="500px" src="images/2016 mujw.jpg" alt="MUJW Class of 2016"></a></aside>
-			<aside>
-				<a href="https://mujw2015.wordpress.com/">MUJW Class of 2015<img width="500px" src="images/2015 mujw.jpg" alt="MUJW Class of 2015"></a></aside>
-			<aside>
-					<a href="https://mujw2014.wordpress.com/">MUJW Class of 2014</a>
-			</aside>
+		</li>
+		<li class="card2016">
+		<aside><a href="https://mujw2016.wordpress.com/">MUJW Class of 2016<img width="500px" src="images/2016 mujw.jpg" alt="MUJW Class of 2016"></a></aside>
+	</li>
+	<li class="card2015">
+			<aside><a href="https://mujw2015.wordpress.com/">MUJW Class of 2015<img width="500px" src="images/2015 mujw.jpg" alt="MUJW Class of 2015"></a></aside></li>
+			<li class="card2014">
+			<aside><a href="https://mujw2014.wordpress.com/">MUJW Class of 2014</a>
+			</aside></li>
+		</ul>
 		</div>
 		<footer>
 			<h1>CONTACT</h1>
 			<p>132 Neff Annex</p>
 			<p>Columbia, MO 65211</p>
 			<p>(573) 882-6031</p>
-			<p>mujw@missouri.edu</p>
+			<a href="mailto:mujw@missouri.edu"><p>mujw@missouri.edu</p></a>
 		</footer>
 </body>
 </html>
