@@ -211,7 +211,7 @@ background-color: #DCDCDC;
     grid-gap: 20px;
     gap: 20px;
     grid-template-areas:
-    "e f f"
+    "e e f"
     "c d b"
   }
   .cards p {
