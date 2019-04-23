@@ -29,8 +29,9 @@
   font-family: 'Muli', sans-serif;
   list-style-type: none;
   display: flex;
+  text-align: center;
   justify-content: space-around;
-  flex-flow: row wrap;
+  flex-direction: row;
   background-color: #DCDCDC;
   border: 3px solid black;
   margin-top: 0;
@@ -43,12 +44,10 @@
 
 #nav a:hover, #nav a:active {background-color: black;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   padding: auto;
   }
-
-
 
 li a{
     display: block;
@@ -87,14 +86,38 @@ footer h1{padding: 5px 5px 8px 5px;
           text-align: left;
         }
 
-.menu-trigger {display: none;}
+@media (max-width: 600px) {
+  #nav { display: flex;
+        flex-direction: column;}
+}
 
-@media (max-width: 800px){
-        #nav{display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;}
-            }*/
+.menutrigger {
+  order: 1;
+}
+
+h1 header {order: 2;}
+
+nav li {display: none;}
+
+@media screen and (min-width: 600px){
+
+    nav li {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    nav {
+        order: 2;
+    }
+
+}
 
         * {box-sizing:border-box}
 
