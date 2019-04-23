@@ -48,8 +48,6 @@
   padding: auto;
   }
 
-
-
 li a{
     display: block;
     color: black;
@@ -115,7 +113,7 @@ footer h1{padding: 5px 5px 8px 5px;
 
 .cards {
   margin: 0 -10px;
-  padding: 25px;
+  padding: 0px;
   padding-bottom: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -135,7 +133,6 @@ footer h1{padding: 5px 5px 8px 5px;
       justify-content: center;
     }
     .cards {
-      text-align: left;
       margin: 0 -10px;
       padding: 10px;
       padding-bottom:15px;
@@ -144,7 +141,7 @@ footer h1{padding: 5px 5px 8px 5px;
       grid-gap: 20px;
       gap: 20px;
       grid-template-areas:
-        "e e e"
+        "e f f"
         "c d b"
 
 }
@@ -154,7 +151,6 @@ footer h1{padding: 5px 5px 8px 5px;
     width: 70%;
   }
   .cards {
-    text-align: left;
     margin: 0 -10px;
     padding: 25px;
     padding-bottom: 20px;
@@ -163,8 +159,11 @@ footer h1{padding: 5px 5px 8px 5px;
     grid-gap: 20px;
     gap: 20px;
     grid-template-areas:
-    "e e e"
+    "e f f"
     "c d b"
+  }
+  .cards p {
+    text-align: center;
   }
 }
 
@@ -173,6 +172,7 @@ footer h1{padding: 5px 5px 8px 5px;
   list-style-type: none;
   border-radius: 5px;
   align-content: center;
+  padding-bottom: 5px;
 }
 
 .card2014 {
@@ -193,4 +193,8 @@ footer h1{padding: 5px 5px 8px 5px;
 
 .card2018 {
   grid-area: e;
+}
+
+.stories2018 {
+  grid area: f;
 }
