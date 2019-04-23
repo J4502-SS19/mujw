@@ -117,8 +117,8 @@ footer h1{padding: 5px 5px 8px 5px;
   gap: 20px;
   grid-template-areas:
     "e e e"
-    "c . d"
-    "b . a"
+    "c c d"
+    "b b b"
   max-width: 80%;
   }
 
@@ -128,11 +128,37 @@ footer h1{padding: 5px 5px 8px 5px;
       flex-flow: row;
       justify-content: center;
     }
+    .cards {
+      text-align: left;
+      margin: 0 -10px;
+      padding: 10px;
+      padding-bottom:15px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+      gap: 20px;
+      grid-template-areas:
+        "e e e"
+        "c d b"
+
 }
 
 @media screen and (min-width: 600px) {
   #container2 {
-    width: 80%;
+    width: 70%;
+  }
+  .cards {
+    text-align: left;
+    margin: 0 -10px;
+    padding: 25px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    gap: 20px;
+    grid-template-areas:
+    "e e e"
+    "c d b"
   }
 }
 
@@ -140,6 +166,7 @@ footer h1{padding: 5px 5px 8px 5px;
   background-color: #DCDCDC;
   list-style-type: none;
   border-radius: 5px;
+  align-content: center;
 }
 
 .card2014 {
