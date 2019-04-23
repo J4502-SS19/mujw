@@ -152,11 +152,6 @@ background-color: #DCDCDC;
           to {opacity: 1}
         }
 
-#sponsors {display: grid;
-grid-template-columns: 25% 25% 25% 25%;
-grid-template-rows: 25% 25% 25% 25%;
-          }
-
 .caption {display: block;
           background-color: black;
           width: auto;
