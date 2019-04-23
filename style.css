@@ -48,8 +48,6 @@
   padding: auto;
   }
 
-
-
 li a{
     display: block;
     color: black;
@@ -167,7 +165,7 @@ background-color: #DCDCDC;
 
 .cards {
   margin: 0 -10px;
-  padding: 25px;
+  padding: 0px;
   padding-bottom: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -175,8 +173,8 @@ background-color: #DCDCDC;
   gap: 20px;
   grid-template-areas:
     "e e e"
-    "c . d"
-    "b . a"
+    "c c d"
+    "b b b"
   max-width: 80%;
   }
 
@@ -186,11 +184,38 @@ background-color: #DCDCDC;
       flex-flow: row;
       justify-content: center;
     }
+    .cards {
+      margin: 0 -10px;
+      padding: 10px;
+      padding-bottom:15px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+      gap: 20px;
+      grid-template-areas:
+        "e f f"
+        "c d b"
+
 }
 
 @media screen and (min-width: 600px) {
   #container2 {
-    width: 80%;
+    width: 70%;
+  }
+  .cards {
+    margin: 0 -10px;
+    padding: 25px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    gap: 20px;
+    grid-template-areas:
+    "e f f"
+    "c d b"
+  }
+  .cards p {
+    text-align: center;
   }
 }
 
@@ -198,6 +223,8 @@ background-color: #DCDCDC;
   background-color: #DCDCDC;
   list-style-type: none;
   border-radius: 5px;
+  align-content: center;
+  padding-bottom: 5px;
 }
 
 .card2014 {
@@ -218,4 +245,8 @@ background-color: #DCDCDC;
 
 .card2018 {
   grid-area: e;
+}
+
+.stories2018 {
+  grid area: f;
 }
