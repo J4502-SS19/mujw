@@ -268,11 +268,48 @@ nav li {display: none;}
   grid area: f;
 }
 
-#mentors{
+.picture_cards {
+  list-style-type: none;
+  margin:0
+  padding: 0;
+  padding-bottom: 20px;
   display: grid;
-  justify-content: space-between;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  margin: 10px auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  grid-template-areas:
+  "a b c d"
+  "e f g h"
+}
+.aliyu{
+  grid area: a;
+}
+.astrain{
+  grid-area: b;
+}
+.briges{
+  grid-area: c;
+}
+.amber{
+  grid-area: d;
+}
+.grigsby{
+  grid-area: e;
+}
+.johnston{
+  grid-area: f;
+}
+.murray{
+  grid-area: g;
+}
+.williams{
+  grid-area: h;
+}
 
+.picture_cards li{
+  background-color: #DCDCDC;
+  list-style-type: none;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  align-content: center;
 }
