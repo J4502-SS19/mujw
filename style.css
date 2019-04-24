@@ -237,9 +237,6 @@ nav li {display: none;}
   max-width: 80%;
   }
 
-  @media screen and (max-width: 450px) {
-        .bio li {list-style-type: none;}
-  }
 
   @media screen and (min-width: 450px) {
 
@@ -277,6 +274,9 @@ nav li {display: none;}
     text-align: center;
   }
 }
+
+.bio-container { margin-left: auto;
+                  margin-right: auto;}
 
 .cards li {
   background-color: #DCDCDC;
