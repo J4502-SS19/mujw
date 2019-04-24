@@ -307,7 +307,7 @@ nav li {display: none;}
 .astrain{
   grid-area: b;
 }
-.briges{
+.bridges{
   grid-area: c;
 }
 .amber{
@@ -332,4 +332,7 @@ nav li {display: none;}
   margin: 20px;
   border-radius: 20px;
   padding:20px
+}
+.picture_cards p{
+  text-align: right;
 }
