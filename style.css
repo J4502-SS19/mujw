@@ -8,6 +8,7 @@
   align-content: center;
   text-decoration: none;
   padding: auto;
+  width: 80%;
 }
 
 #groupphotos img {
@@ -33,18 +34,21 @@
             display: flex;
             justify-content: space-between;}
 
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  width: 80%;
+  }
+
+
+.donate {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.donate{
-  display: flex;
-  margin: auto;
-}
 #nav {
   font-family: 'Muli', sans-serif;
   list-style-type: none;
@@ -274,6 +278,8 @@ nav li {display: none;}
     text-align: center;
   }
 }
+
+.bio { list-style-type: none;}
 
 .cards li {
   background-color: #DCDCDC;
