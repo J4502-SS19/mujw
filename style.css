@@ -337,5 +337,9 @@ nav li {display: none;}
   padding:20px
 }
 .picture_cards p{
-  text-align: right;
+  text-align: center;
+  padding-left: 10px;
+}
+.picture_cards li img{
+  float: left;
 }
