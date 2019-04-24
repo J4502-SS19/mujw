@@ -142,7 +142,6 @@ nav li {display: none;}
 
 @media screen and (min-width: 600px){
 
-
     nav li {
         display: flex;
     }
@@ -338,19 +337,31 @@ details {
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: .5em .5em 0;
+    font-family: 'Muli', sans-serif;
+    color:  #000000;
+    font-size: 1em;
 }
 
 summary {
     font-weight: bold;
     margin: -.5em -.5em 0;
     padding: .5em;
+    font-family: 'Muli', sans-serif;
+    color:  #000000;
+    font-size: 1em;
 }
 
 details[open] {
     padding: .5em;
+    font-family: 'Muli', sans-serif;
+    color:  #000000;
+    font-size: 1em;
 }
 
 details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
+    font-family: 'Muli', sans-serif;
+    color:  #000000;
+    font-size: 1em;
 }
