@@ -16,7 +16,7 @@
 
 	<body>
 		<div id="header">
-			<a href="index.html"><IMG SRC="images/Logo.png" ALT="MUJW Logo" HEIGHT= 100/></a>
+			<a href="index.html"><IMG class="logo" SRC="images/Logo.png" ALT="MUJW Logo" HEIGHT= 100/></a> <a href="https://www.cvent.com/events/journalism-workshops-2019/registration-3bf78dfef9874d989ad3138266600a04.aspx?fqp=true"><IMG class="apply" SRC="images/APPLY.png" ALT="Apply Now" HEIGHT=100></a>
 		</div>
 	  <div id="container">
 			<nav>
@@ -30,17 +30,42 @@
 	   </nav></ul></div>
 	    <h1>Missouri Urban Journalism Workshop</h1>
 				<p class="p1">This year, we're celebrating 49 years of immersing high school students in the Missouri Method! We are one of the nation’s longest running journalism workshops for high school students. Here, students participate in our weeklong seminar where they have the oppurtunity to create professional-quality content for MU's newsrooms, including the Columbia Missourian and KOMU, the local NBC Affiliate. </p>
-				<p> <img src="images/2018 MUJW.jpg" width=80% alt="MUJW Class of 2018" class="center">
+
+				<!-- Slideshow container -->
+				<div class="slideshow-container">
+
+				  <!-- Full-width images with number and caption text -->
+				  <div class="mySlides fade">
+				    <img src="images/2018 MUJW.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <img src="images/interview.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <img src="images/panel.jpg" style="width:100%">
+				  </div>
+
+				<!-- The dots/circles -->
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span>
+				  <span class="dot" onclick="currentSlide(2)"></span>
+				  <span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+			</div>
+
+
 	<h1> Skills you will work on include: </h1>
 
-<p> <b> Mobile Technologies: </b> Learn how to interview sources, shoot video, take photos – do everything you need for your story – while you’re on location. In today’s world, journalists can work from anywhere. </p>
-<p> <b> Social Media: </b> Use Twitter, Snapchat, Facebook and other social platforms to engage with the public, gather information and more for all stages of your reporting. </p>
-<p> <b> Documentary Journalism: </b> Go beyond day-turn reporting and try your hand at long-form storytelling. You’ll learn new investigative and technical skills in this exercise. </p>
-<p> <b> Data Journalism: </b> Dig deep into publicly available information in government databases to discover facts and statistics. Learn how to produce graphics that visualize the information for the public. </p>
-<p> <b> Lots More: </b> Web design and production, narrative writing and story structure, other timely and current topics. </p>
+<p class="p1"> <b> Mobile Technologies: </b> Learn how to interview sources, shoot video, take photos – do everything you need for your story – while you’re on location. In today’s world, journalists can work from anywhere. </p>
+<p class="p1"> </br> <b> Social Media: </b> Use Twitter, Snapchat, Facebook and other social platforms to engage with the public, gather information and more for all stages of your reporting. </p>
+<p class="p1"> </br> <b> Documentary Journalism: </b> Go beyond day-turn reporting and try your hand at long-form storytelling. You’ll learn new investigative and technical skills in this exercise. </p>
+<p class="p1"> </br> <b> Data Journalism: </b> Dig deep into publicly available information in government databases to discover facts and statistics. Learn how to produce graphics that visualize the information for the public. </p>
+<p class="p1"> </br> <b> Lots More: </b> Web design and production, narrative writing and story structure, other timely and current topics. </br> </p>
 
-<p> The next MUJW will take place in July 23-28, 2019. The workshop is open to exceptional sophomores but junior/senior status is preferred. </p>
-
+<p class="p1"> </br> <i> The next MUJW will take place in July 23-28, 2019. The workshop is open to exceptional sophomores but junior/senior status is preferred. </i> </br> </p>
+<p> </br> </p>
 			<footer>
 				<h1>CONTACT</h1>
 				<p>132 Neff Annex</p>
@@ -48,5 +73,27 @@
 				<p>(573) 882-6031</p>
 				<a href="mailto:mujw@missouri.edu"><p>mujw@missouri.edu</p></a>
 			</footer>
+
+			<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) {slideIndex = 1}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+				setTimeout(showSlides, 3000); // Change image every 3 seconds
+			}
+			</script>
 </body>
 </html>

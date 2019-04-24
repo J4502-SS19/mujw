@@ -14,9 +14,25 @@
   display:block;
 }
 
-#header{display: block;
+#header {display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
   background-color: #F1B82D;
   margin: auto;
+}
+
+#sponsors {display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33% 33% 33%;
+  background-color: #DCDCDC;
+}
+
+#sponsors img {margin: 10px 20px;
+            display: flex;
+            justify-content: space-between;}
+
 }
 
 .center {
@@ -72,9 +88,18 @@ h1{
   text-align: center;
 }
 
+h2 {
+  font-family:'Roboto', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 1em;
+  text-align: center;
+}
+
 footer{display: block;
       background-color: black;
-      padding: 5px 5px 20px 5px;
+      padding-top: 10px;
+      padding: 15px 5px 20px 5px;
     }
 footer p{margin: .4px;
         color: white;
@@ -86,14 +111,21 @@ footer h1{padding: 5px 5px 8px 5px;
           text-align: left;
         }
 
-@media (max-width: 600px) {
-  #nav { display: flex;
+@media screen and (max-width: 600px) {
+
+#nav { display: flex;
         flex-direction: column;}
+#header { display: flex;
+  flex-direction: column;
+  align-items: center;}
 }
 
 .menutrigger {
   order: 1;
 }
+
+.slideshow-container {padding-top: 10px;
+                      padding-bottom: 10px;}
 
 h1 header {order: 2;}
 
@@ -228,7 +260,7 @@ nav li {display: none;}
     grid-gap: 20px;
     gap: 20px;
     grid-template-areas:
-    "e f f"
+    "e e f"
     "c d b"
   }
   .cards p {
@@ -268,11 +300,54 @@ nav li {display: none;}
   grid area: f;
 }
 
-#mentors{
+.picture_cards {
+  list-style-type: none;
+  margin:0
+  padding: 0;
+  padding-bottom: 20px;
   display: grid;
-  justify-content: space-between;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  margin: 10px auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  grid-template-areas:
+  "a b c d"
+  "e f g h"
+}
+.aliyu{
+  grid area: a;
+}
+.astrain{
+  grid-area: b;
+}
+.bridges{
+  grid-area: c;
+}
+.amber{
+  grid-area: d;
+}
+.grigsby{
+  grid-area: e;
+}
+.johnston{
+  grid-area: f;
+}
+.murray{
+  grid-area: g;
+}
+.williams{
+  grid-area: h;
+}
 
+.picture_cards li{
+  background-color: #DCDCDC;
+  list-style-type: none;
+  margin: 20px;
+  border-radius: 20px;
+  padding:20px
+}
+.picture_cards p{
+  text-align: center;
+  padding-left: 10px;
+}
+.picture_cards li img{
+  float: left;
 }
