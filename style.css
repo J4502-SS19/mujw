@@ -14,7 +14,11 @@
   display:block;
 }
 
-#header{display: block;
+#header {display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
   background-color: #F1B82D;
   margin: auto;
 }
@@ -94,6 +98,7 @@ h2 {
 
 footer{display: block;
       background-color: black;
+      padding-top: 10px;
       padding: 15px 5px 20px 5px;
     }
 footer p{margin: .4px;
@@ -106,10 +111,13 @@ footer h1{padding: 5px 5px 8px 5px;
           text-align: left;
         }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
 #nav { display: flex;
         flex-direction: column;}
+#header { display: flex;
+  flex-direction: column;
+  align-items: center;}
 }
 
 .menutrigger {
