@@ -252,22 +252,22 @@ nav li {display: none;}
   }
   .cards {
     margin: 10px;
-    padding: 25px;
+    padding: 20px;
     padding-bottom: 20px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 20px;
-    gap: 20px;
+    gap: 15px;
     grid-template-areas:
     "e e f"
-    "c d b"
+    "c d b";
   }
   .cards p {
     text-align: center;
   }
 }
 
-.bio-container { margin-left: auto;
+.bio-container {margin-left: auto;
                   margin-right: auto;}
 
 .cards li {
