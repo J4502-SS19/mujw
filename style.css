@@ -263,7 +263,7 @@ nav li {display: none;}
     padding: 25px;
     padding-bottom: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33% 33% 33%;
     grid-gap: 20px;
     gap: 20px;
     grid-template-areas:
@@ -288,26 +288,32 @@ nav li {display: none;}
 
 .card2014 {
   grid-area: a;
+  width: 100%;
 }
 
 .card2015 {
   grid-area: b;
+  width: 100%;
 }
 
 .card2016 {
   grid-area: c;
+  width: 100%;
 }
 
 .card2017 {
   grid-area: d;
+  width: 100%;
 }
 
 .card2018 {
   grid-area: e;
+  width: 100%;
 }
 
 .stories2018 {
   grid-area: f;
+    width: 100%;
 }
 
 .bio-container {
