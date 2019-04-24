@@ -251,7 +251,6 @@ nav li {display: none;}
       grid-template-areas:
         "e f f"
         "c d b"
-
 }
 
 @media screen and (min-width: 600px) {
@@ -260,7 +259,7 @@ nav li {display: none;}
     width: 70%;
   }
   .cards {
-    margin: 0 -10px;
+    margin: 10px;
     padding: 25px;
     padding-bottom: 20px;
     display: grid;
@@ -308,7 +307,7 @@ nav li {display: none;}
 }
 
 .stories2018 {
-  grid area: f;
+  grid-area: f;
 }
 
 .bio-container {
