@@ -275,6 +275,8 @@ nav li {display: none;}
   }
 }
 
+.bio { list-style-type: none;}
+
 .cards li {
   background-color: #DCDCDC;
   list-style-type: none;
