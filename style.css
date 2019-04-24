@@ -94,7 +94,7 @@ h2 {
 
 footer{display: block;
       background-color: black;
-      padding: 5px 5px 20px 5px;
+      padding: 15px 5px 20px 5px;
     }
 footer p{margin: .4px;
         color: white;
@@ -115,6 +115,9 @@ footer h1{padding: 5px 5px 8px 5px;
 .menutrigger {
   order: 1;
 }
+
+.slideshow-container {padding-top: 10px;
+                      padding-bottom: 10px;}
 
 h1 header {order: 2;}
 
