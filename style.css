@@ -331,6 +331,5 @@ nav li {display: none;}
   list-style-type: none;
   margin: 20px;
   border-radius: 20px;
-  padding: 20px;
-  align-content: center;
+  padding:20px
 }
