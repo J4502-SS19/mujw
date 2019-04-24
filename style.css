@@ -106,7 +106,7 @@ h2 {
 
 footer{display: block;
       background-color: black;
-      padding-top: 10px;
+      padding-top: 100px;
       padding: 15px 5px 20px 5px;
     }
 footer p{margin: .4px;
@@ -141,7 +141,6 @@ h1 header {order: 2;}
 nav li {display: none;}
 
 @media screen and (min-width: 600px){
-
 
     nav li {
         display: flex;
@@ -330,7 +329,7 @@ nav li {display: none;}
   list-style-type: none;
   margin: 20px;
   border-radius: 20px;
-  padding:20px
+  padding:20px;
 }
 .bio-container p{
   text-align: center;
@@ -344,19 +343,31 @@ details {
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: .5em .5em 0;
+    font-family: 'Muli', sans-serif;
+    color:  #000000;
+    font-size: 1em;
 }
 
 summary {
     font-weight: bold;
     margin: -.5em -.5em 0;
     padding: .5em;
+    font-family: 'Muli', sans-serif;
+    color:  #000000;
+    font-size: 1em;
 }
 
 details[open] {
     padding: .5em;
+    font-family: 'Muli', sans-serif;
+    color:  #000000;
+    font-size: 1em;
 }
 
 details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
+    font-family: 'Muli', sans-serif;
+    color:  #000000;
+    font-size: 1em;
 }
