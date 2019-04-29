@@ -251,6 +251,7 @@ nav li {display: none;}
         "e f f"
         "c d b"
 }
+}
 
 @media screen and (min-width: 600px) {
 
@@ -338,6 +339,40 @@ nav li {display: none;}
 .bio-container li img{
   float: left;
 }
+
+.grigsby{
+  grid-area: e;
+}
+.bridges{
+  grid-area: c;
+}
+.astrain{
+  grid-area: b;
+}
+.williams{
+  grid-area: h;
+}
+.aliyu{
+  grid-area: a;
+}
+.garrett{
+  grid-area: d;
+}
+.murray{
+  grid-area: g;
+}
+.johnston{
+  grid-area: f;
+}
+@media screen and (min-width:1000px) {
+.bio-container{
+  display: grid;
+  grid-template-areas:
+  "a b c d"
+  "e f g h";
+}
+}
+
 
 details {
     border: 1px solid #aaa;
