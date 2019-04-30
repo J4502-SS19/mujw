@@ -364,6 +364,7 @@ nav li {display: none;}
 .johnston{
   grid-area: f;
 }
+
 @media screen and (min-width:1000px) {
 .bio-container{
   display: grid;
