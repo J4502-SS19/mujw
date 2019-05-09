@@ -335,6 +335,14 @@ nav li {display: none;}
 .bio-container p{
   text-align: center;
   padding-left: 10px;
+  font-family: 'Muli', sans-serif;
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #DCDCDC;
+  margin-top: 0;
 }
 .bio-container li img{
   float: left;
