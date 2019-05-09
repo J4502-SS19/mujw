@@ -8,7 +8,7 @@
   align-content: center;
   text-decoration: none;
   padding: auto;
-  width: 100%;
+  width: 80%;
 }
 
 #groupphotos img {
@@ -214,8 +214,36 @@ nav li {display: none;}
           text-align: center;}
 }
 
+.cards {
+  margin: 0 -10px;
+  padding: 0px;
+  padding-bottom: 20px;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-template-areas:
+    "e e e"
+    "c c d"
+    "b b b"
+  max-width: 80%;
+  }
+
+
   @media screen and (min-width: 450px) {
 
+    .cards {
+      margin: 0 -10px;
+      padding: 10px;
+      padding-bottom:15px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+      gap: 20px;
+      grid-template-areas:
+        "e f f"
+        "c d b"
+}
 }
 
 @media screen and (min-width: 600px) {
@@ -225,22 +253,22 @@ nav li {display: none;}
   }
   .cards {
     margin: 10px;
-    padding: 20px;
+    padding: 25px;
     padding-bottom: 20px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 20px;
-    gap: 15px;
+    gap: 20px;
     grid-template-areas:
     "e e f"
-    "c d b";
+    "c d b"
   }
   .cards p {
     text-align: center;
   }
 }
 
-.bio-container {margin-left: auto;
+.bio-container { margin-left: auto;
                   margin-right: auto;}
 
 .cards li {
@@ -304,6 +332,41 @@ nav li {display: none;}
 .bio-container li img{
   float: left;
 }
+
+.grigsby{
+  grid-area: e;
+}
+.bridges{
+  grid-area: c;
+}
+.astrain{
+  grid-area: b;
+}
+.williams{
+  grid-area: h;
+}
+.aliyu{
+  grid-area: a;
+}
+.garrett{
+  grid-area: d;
+}
+.murray{
+  grid-area: g;
+}
+.johnston{
+  grid-area: f;
+}
+
+@media screen and (min-width:1000px) {
+.bio-container{
+  display: grid;
+  grid-template-areas:
+  "a b c d"
+  "e f g h";
+}
+}
+
 
 details {
     border: 1px solid #aaa;
