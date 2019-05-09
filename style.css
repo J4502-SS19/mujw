@@ -106,7 +106,7 @@ h2 {
 
 footer{display: block;
       background-color: black;
-      padding-top: 100px;
+      padding-top: 10px;
       padding: 15px 5px 20px 5px;
     }
 footer p{margin: .4px;
@@ -324,7 +324,7 @@ nav li {display: none;}
   list-style-type: none;
   margin: 20px;
   border-radius: 20px;
-  padding:20px;
+  padding:20px
 }
 .bio-container p{
   text-align: center;
