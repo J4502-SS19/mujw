@@ -43,7 +43,7 @@
 }
 
 #nav {
-  font-family: 'Muli', sans-serif;
+  font-family:'Montserrat', sans-serif;;
   list-style-type: none;
   display: flex;
   text-align: center;
@@ -75,13 +75,13 @@ li a{
   }
 
 p{
-  font-family: 'Muli', sans-serif;
+  font-family:'Montserrat', sans-serif;
   color:  #000000;
   font-size: 1em;
 }
 
 h1{
-  font-family:'Roboto', sans-serif;
+  font-family:'Libre Franklin', sans-serif;;
   font-weight: bold;
   color: black;
   font-size: 2em;
@@ -90,7 +90,7 @@ h1{
 }
 
 h2 {
-  font-family:'Roboto', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
   color: black;
   font-size: 1em;
@@ -204,7 +204,7 @@ nav li {display: none;}
           width: auto;
           margin-left: auto
           padding: 5px;
-          font-family: serif, "Times New Roman", sans-serif;
+          font-family: 'Montserrat', sans-serif;;
           font-style: italic;
           color: #FFFFFF;
           font-size: 0.8em;
@@ -326,7 +326,7 @@ nav li {display: none;}
 .bio-container p{
   text-align: center;
   padding-left: 10px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   list-style-type: none;
   display: flex;
   text-align: center;
@@ -378,7 +378,7 @@ details {
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: .5em .5em 0;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color:  #000000;
     font-size: 1em;
 }
@@ -387,14 +387,14 @@ summary {
     font-weight: bold;
     margin: -.5em -.5em 0;
     padding: .5em;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color:  #000000;
     font-size: 1em;
 }
 
 details[open] {
     padding: .5em;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color:  #000000;
     font-size: 1em;
 }
@@ -402,7 +402,7 @@ details[open] {
 details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color:  #000000;
     font-size: 1em;
 }
