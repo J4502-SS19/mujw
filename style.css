@@ -2,15 +2,6 @@
   list-style-type: none;
 }
 
-#groupphotos a:hover, #groupphotos a:active {
-  background-color: #F1B82D;
-  text-align: center;
-  align-content: center;
-  text-decoration: none;
-  padding: auto;
-  width: 80%;
-}
-
 #groupphotos img {
   display:block;
 }
