@@ -98,7 +98,7 @@ h2 {
 
 footer{display: block;
       background-color: black;
-      padding-top: 100px;
+      padding-top: 10px;
       padding: 15px 5px 20px 5px;
     }
 footer p{margin: .4px;
@@ -170,9 +170,14 @@ nav li {display: none;}
 
         /* Slideshow container */
         .slideshow-container {
-          max-width: 1000px;
+          max-width: 600px;
           position: relative;
           margin: auto;
+        }
+
+        .slideshow-container img {
+          height: 400px;
+          width: 600px;
         }
 
         /* Hide the images by default */
@@ -318,11 +323,19 @@ nav li {display: none;}
   list-style-type: none;
   margin: 20px;
   border-radius: 20px;
-  padding:20px;
+  padding:20px
 }
 .bio-container p{
   text-align: center;
   padding-left: 10px;
+  font-family: 'Muli', sans-serif;
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #DCDCDC;
+  margin-top: 0;
 }
 .bio-container li img{
   float: left;
