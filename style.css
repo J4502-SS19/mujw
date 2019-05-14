@@ -378,7 +378,7 @@ nav li {display: none;}
 
 
 details {
-  font-weight: light; 
+  font-weight: lighter;
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: .5em .5em 0;
