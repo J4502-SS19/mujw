@@ -282,7 +282,7 @@ nav li {display: none;}
 }
 
 .bio-container {margin-left: auto;
-                  margin-right: auto;}
+                margin-right: auto;}
 
 .cards li {
   background-color: #DCDCDC;
@@ -327,18 +327,12 @@ nav li {display: none;}
     flex-flow: column;
 }
 
-.bio p {
-    padding: 10px;
-}
-
-
-
 .bio-container li{
   background-color: #DCDCDC;
   list-style-type: none;
-  margin: 20px;
-  border-radius: 20px;
-  padding: 20px;
+  margin: 30px;
+  border-radius: 30px;
+  padding: 30px;
 }
 .bio-container p{
   text-align: center;
@@ -350,7 +344,7 @@ nav li {display: none;}
   justify-content: space-around;
   flex-direction: row;
   background-color: #DCDCDC;
-  margin-top: 0;
+  margin-top: auto;
 }
 .bio-container li img{
   float: left;
