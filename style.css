@@ -376,7 +376,7 @@ nav li {display: none;}
   grid-area: f;
 }
 .putney{
-  grid-area: h;
+  grid-area: i;
 }
 
 @media screen and (min-width:1000px) {
@@ -384,7 +384,8 @@ nav li {display: none;}
   display: grid;
   grid-template-areas:
   "a b c d"
-  "e f g h";
+  "e f g h"
+  "i . . .";
   margin: auto;
 }
 }
