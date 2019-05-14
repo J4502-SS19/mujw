@@ -331,7 +331,7 @@ nav li {display: none;}
   justify-content: space-around;
   flex-direction: row;
   background-color: #DCDCDC;
-  margin-top: auto;
+  margin: auto;
 }
 .bio-container li img{
   float: left;
@@ -372,7 +372,7 @@ nav li {display: none;}
   "a b c d"
   "e f g h"
   "i . . .";
-  margin: auto;
+  margin-top: auto;
 }
 }
 
