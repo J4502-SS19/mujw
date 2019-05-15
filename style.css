@@ -336,9 +336,12 @@ nav li {display: none;}
   background-color: #DCDCDC;
   margin: auto;
 }
+
 .bio-container li img{
   float: left;
 }
+
+
 
 .grigsby{
   grid-area: e;
