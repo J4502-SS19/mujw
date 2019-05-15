@@ -1,12 +1,15 @@
 #groupphotos {
   list-style-type: none;
 }
-#groupphotos a:hover, #groupphotos a:active {
+#groupphotos li:hover, #groupphotos li:active {
   background-color: #F1B82D; }
 
 #groupphotos img {
   display:block;
 }
+
+.bio-container li p:hover, .bio-container li p:active {
+    background-color: #F1B82D; }
 
 #faculty li {margin-left: -20px;}
 
