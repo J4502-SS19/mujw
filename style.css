@@ -10,7 +10,7 @@
 
 #faculty li {margin-left: -20px;}
 
-#nav li {margin-left: -20px;}
+#nav li {margin-left: -25px;}
 
 #groupphotos li {margin-left: -20px;}
 
@@ -121,8 +121,9 @@ footer h1{padding: 5px 5px 8px 5px;
 
 @media screen and (max-width: 600px) {
 
+#nav li a {margin-left: -18px;}
 
-.menu-trigger {margin-right: 30px;}
+.menu-trigger {margin-right: 35px;}
 
 #nav { display: flex;
         flex-direction: column;}
