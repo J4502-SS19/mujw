@@ -243,6 +243,8 @@ nav li {display: none;}
 }
 }
 
+a h3 {font-family: 'Montserrat', sans-serif;}
+
 @media screen and (min-width: 600px) {
 
   #container2 {
@@ -257,8 +259,9 @@ nav li {display: none;}
     grid-gap: 20px;
     gap: 20px;
     grid-template-areas:
-    "e e f"
-    "c d b"
+    "f g h"
+    "e e e"
+    "d c b"
   }
   .cards p {
     text-align: center;
@@ -303,9 +306,19 @@ nav li {display: none;}
   width: 100%;
 }
 
-.stories2018 {
+.stories2018_1 {
   grid-area: f;
     width: 100%;
+}
+
+.stories2018_2 {
+  grid-area: g;
+  width: 100%;
+}
+
+.stories2018_3 {
+  grid-area: h;
+  width: 100%;
 }
 
 .bio-container {
