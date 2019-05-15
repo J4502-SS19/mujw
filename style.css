@@ -50,7 +50,7 @@
 }
 
 #nav {
-  font-family:'Montserrat', sans-serif;;
+  font-family:'Montserrat', sans-serif;
   list-style-type: none;
   display: flex;
   text-align: center;
@@ -275,6 +275,8 @@ nav li {display: none;}
   align-content: center;
   padding-bottom: 5px;
 }
+
+.stories2018
 
 .card2014 {
   grid-area: a;
