@@ -29,11 +29,15 @@
 
 #sponsors {display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 33% 33% 33%;
+  grid-template-rows: 50% 50%;
+  background-color: #DCDCDC;
+}
+#sponsors2 {display: grid;
+  grid-template-columns: 33% 33% 33%;
   background-color: #DCDCDC;
 }
 
-#sponsors img {margin: 10px 20px;
+#sponsors img {
             display: flex;
             justify-content: space-between;}
 
@@ -358,42 +362,11 @@ a h3 {font-family: 'Montserrat', sans-serif;}
 }
 
 
-
-.grigsby{
-  grid-area: e;
-}
-.bridges{
-  grid-area: c;
-}
-.astrain{
-  grid-area: b;
-}
-.williams{
-  grid-area: h;
-}
-.aliyu{
-  grid-area: a;
-}
-.garrett{
-  grid-area: d;
-}
-.murray{
-  grid-area: g;
-}
-.johnston{
-  grid-area: f;
-}
-.putney{
-  grid-area: i;
-}
-
 @media screen and (min-width:1000px) {
 .bio-container{
   display: grid;
-  grid-template-areas:
-  "a b c d"
-  "e f g h"
-  "i . . .";
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
   margin-top: auto;
 }
 }
